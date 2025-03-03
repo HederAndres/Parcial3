@@ -11,45 +11,45 @@
 curl --location 'http://localhost:8080/api/saludo' \
 --header 'Accept-Language: es'
 ```
-![img_2.png](img_2.png)
+![img_2.png](src/main/resources/Imagenes/img_2.png)
 
 * Endpoint para ver mensaje en inglés:
 ```
 curl --location 'http://localhost:8080/api/saludo' \
 --header 'Accept-Language: en' 
 ```
-![img_1.png](img_1.png)
+![img_1.png](src/main/resources/Imagenes/img_1.png)
 
 * Endpoint para ver mensaje en francés:
 ```
 curl --location 'http://localhost:8080/api/saludo' \
 --header 'Accept-Language: fr' 
 ```
-![img_3.png](img_3.png)
+![img_3.png](src/main/resources/Imagenes/img_3.png)
 
 * Endpoint para ver todos los productos disponibles en inglés:
 ```
 curl --location 'http://localhost:8080/api/productos?lang=en'
 ```
-![img_4.png](img_4.png)
+![img_4.png](src/main/resources/Imagenes/img_4.png)
 
 * Endpoint para ver todos los productos disponibles en francés:
 ```
 curl --location 'http://localhost:8080/api/productos?lang=fr'
 ```
-![img_5.png](img_5.png)
+![img_5.png](src/main/resources/Imagenes/img_5.png)
 
 * Endpoint para ver todos los productos disponibles en español:
 ```
 curl --location 'http://localhost:8080/api/productos?lang=es'
 ```
-![img_6.png](img_6.png)
+![img_6.png](src/main/resources/Imagenes/img_6.png)
 
 * Endpoint para ver un producto en español:
 ```
 curl --location 'http://localhost:8080/api/productos/1?lang=es'
 ```
-![img_7.png](img_7.png)
+![img_7.png](src/main/resources/Imagenes/img_7.png)
 
 También es posible verlo en inglés y francés de la siguiente forma:
 ```
@@ -95,4 +95,4 @@ curl --location --request DELETE 'localhost:8080/api/productos/3' \
 
 ## Prueba Unitaria
 
-![img_8.png](img_8.png)
+![img_8.png](src/main/resources/Imagenes/img_8.png)
