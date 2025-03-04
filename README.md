@@ -69,7 +69,7 @@ curl --location 'localhost:8080/api/productos' \
 "precio": 560.99
 }'
 ```
-![img_4.png](src/test/resources/img_4.png)
+![img_1.png](src/main/resources/Imagenes/img_10.png)
 
 * Endpoint para modificar un producto:
 ```
@@ -80,18 +80,14 @@ curl --location --request PUT 'localhost:8080/api/productos/1' \
 "precio": 1850
 }'
 ```
-![img_5.png](src/test/resources/img_5.png)
+![img_2.png](src/main/resources/Imagenes/img_11.png)
 
 * Endpoint para eliminar un producto:
 ```
 curl --location --request DELETE 'localhost:8080/api/productos/3' \
 --data ''
 ```
-![img_6.png](src/test/resources/img_6.png)
-
-## Resultado de los cambios:
-
-![img_7.png](src/test/resources/img_7.png)
+![img_3.png](src/main/resources/Imagenes/img_12.png)
 
 ## Prueba Unitaria
 
